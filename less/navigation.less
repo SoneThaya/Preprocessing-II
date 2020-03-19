@@ -1,1 +1,56 @@
 // Navigation Styles here
+nav {
+  display: flex;
+  
+
+  .title {
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+
+      h1 {
+        padding-top: 10%;
+      }
+    
+  }
+
+  .nav-bar {
+    justify-content: flex-end;
+    width: 60%;
+    margin: 5%;
+    display: flex;
+
+    
+    a {
+      justify-content: flex-end;
+      font-size: 2rem;
+      text-decoration: none;
+      padding: 20px 10px;
+      color: black;
+    }
+  }
+
+  @media @phone {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+      .title {
+        padding-top: 3%;
+        margin: 0;
+      }
+      .nav-bar {
+        padding: 0;
+        margin: 0;
+      }
+    
+
+  }
+
+  
+}
